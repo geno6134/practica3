@@ -1,0 +1,5 @@
+shopping_list = ["молоко", "хлеб", "яблоки", "сыр", "сыр"] #сыр повторяется чтоб потом показать разницу в результатах
+shopping_list.append("бананы")
+print("Список покупок:", shopping_list)
+unique_items = list(set(shopping_list))
+print("Множество уникальных товаров:", unique_items)
